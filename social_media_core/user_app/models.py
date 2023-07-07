@@ -12,7 +12,7 @@ class BaseModel(models.Model):
 
 
 class PostModel(BaseModel):
+    user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     title = models.CharField(max_length=50)
     description = models.CharField(max_length=200)
-    user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     slug = AutoSlugField(populate_from="title", null=True)
