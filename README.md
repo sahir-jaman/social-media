@@ -1,9 +1,9 @@
 
 
-# Django based Instagram
+# Sahir's Django based Instagram
 
 
-#### Django Instagram is a web application that allows users to share photos and follow other users, similar to the popular social media platform, Instagram.
+#### Instagram is a web application that allows users to share photos and follow other users, similar to the popular social media platform, Instagram.
 > 
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/MusicPlayer/commits/master)
